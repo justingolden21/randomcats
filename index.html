@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Random Cats</title>
+
+<meta charset="utf-8">
+<meta name="title=" content="Random Cats">
+<meta name="robots" content="index, follow">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Find random cat facts and gifs">
+<meta name="keywords" content="cat, cats, random, fact, facts, pictures, images, photos, pics, photographs">
+
+<!-- <link rel="icon" href="icon-sm.png" type="image/png"> -->
+
+<meta name="theme-color" content="#333">
+<meta name="msapplication-navbutton-color" content="#333">
+<meta name="apple-mobile-web-app-status-bar-style" content="#333">
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>  
+
+<link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+
+<script src="scripts.js"></script>
+
+<h1>🐱Random Cats</h1>
+<h3>Find random cat facts and gifs</h3>
+<button onclick="location.reload();" title="random fact" class="btn -btn-default btn-lg"><i class="fas fa-dice"></i></button>
+<button onclick="copyFact();" title="copy fact" class="btn -btn-default btn-lg"><i class="fas fa-copy"></i></button>
+
+<p id="output"></p>
+
+<!-- random cat gif -->
+<img id="catGif" src="http://thecatapi.com/api/images/get?format=src&type=gif">
+
+
+
+
+</body>
+</html>
